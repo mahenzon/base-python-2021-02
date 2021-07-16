@@ -46,4 +46,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send webhook
-        run: curl -X POST https://httpbin.org/post -H x-workflow:$GITHUB_WORKFLOW
+        run: curl -X POST https://httpbin.org/post -H "x-workflow:$GITHUB_WORKFLOW"
