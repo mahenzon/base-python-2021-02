@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, render_template, url_for, redirect
+from flask import Blueprint, request, render_template, url_for, redirect
 from werkzeug.exceptions import NotFound, BadRequest
 
 
